@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.7em;
+    font-family: 'STIX Two Text', serif;
+    font-size: 12px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+    width: 100%;
+}
+
+.btn {
+    color: #fff;
+    font-size: 24px;
+    background-color: #F4665E;
+    border: 10px solid transparent;
+
+}
+
+.hamb-icon {
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-justify-start {
+    justify-content: flex-start;
+}
+
+.flex-justify-end {
+    justify-content: flex-end;
+}
+
+.flex-justify-space-between {
+    justify-content: space-between
+}
+
+.flex-align-item-center {
+    align-items: center;
+}
+
+.navbar {
+    background-color: #f2f2f2;
+}
+
+.navbar-nav {
+    padding: 2rem;
+}
+
+.navbar .nav-list .list-item .list-item-link {
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+.navbar .nav-list .list-item.btn  {
+    border-radius: 30px;
+    margin-left: 4rem;
+}
+
+.navbar .nav-list .list-item.btn a {
+    color: #fff;
+    border-radius: 30px;
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+ 
+    .nav-list {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+    .nav-list {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 740px;
+    }
+    .nav-list {
+        display: none;
+    }
+}
+
+@media (min-width: 968px) {
+    .container {
+        max-width: 920px;
+    }
+    .nav-list {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    .nav-list {
+        display: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1340px;
+    }
+}
+
